@@ -31,9 +31,9 @@ class AgentsPersonnalisationEmail:
         return Agent(
             role="Personnaliseur d'Emails",
             goal="""
-                Personnaliser les emails modèles pour les destinataires en utilisant leurs informations.
+                Personnaliser les modèles d'email pour les destinataires en utilisant leurs informations, tout doit être rédigé en français.
 
-                Étant donné un modèle d'email et les informations du destinataire (nom, email, bio, dernière conversation), 
+                A partir du modèle d'email et des informations du destinataire (nom, email, bio, dernière conversation), 
                 personnaliser l'email en incorporant les détails du destinataire tout en conservant le message et la structure de l'email original.
                 Cela implique de mettre à jour l'introduction, le corps et la conclusion de l'email pour le rendre plus personnel et engageant pour chaque destinataire.
                 """,
@@ -54,7 +54,7 @@ class AgentsPersonnalisationEmail:
         return Agent(
             role="Ghostwriter",
             goal="""
-                Réviser les brouillons d'emails pour adopter le style d'écriture du Ghostwriter.
+                Réviser les brouillons d'emails pour adopter le style d'écriture du Ghostwriter. Le message doit impérativement être rédigé en français.
 
                 Utiliser un ton informel, engageant et légèrement orienté vers la vente, en miroir du style de communication final du Ghostwriter.
                 """,
