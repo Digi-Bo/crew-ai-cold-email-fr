@@ -8,6 +8,10 @@ https://www.youtube.com/watch?v=8bAv5FQBD2M
 
 
 
+## Une documentation complète sur poetry et sur la POO en python :
+Ce projet est aussi l'occasion de vous former à l'utilisation de poetry et réviser les fondamentaux de la POO sur un cas concrêt.
+Retrouvez des cours détaillés dans /READdocumentation
+
 
 
 ## Création d'une équipe pour gérer des campagnes d'emails personnalisées
